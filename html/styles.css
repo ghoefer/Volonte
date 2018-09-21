@@ -6,7 +6,7 @@ form {
 
 }
 
-/* Full-width inputs */
+/*User inputs */
 .form input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 10px;
@@ -38,18 +38,30 @@ form {
 h1 {
   display: block;
   font-size: 2em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
+  margin-top: 1em;
+  padding-bottom: 40px;
+  line-height: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 0;
   font-weight: bold;
   font-style: bold;
   text-align: center;
   font-family: Lucida Grande;
   font-size: 24px;
   color: #FFFFFF;
-  padding-bottom: 40px;
 
+
+}
+
+h2 {
+  display: block;
+  margin-top: 0px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #636373;
+  padding-bottom: 30px;
 }
 
 /* Set a style for all buttons */
@@ -68,7 +80,8 @@ h1 {
 .form .Loginbtn {
 background: #FFA480;
 border-radius: 45px;
-margin-top: 45px;
+margin-top: 20px;
+margin-bottom: 40px;
 }
 
 /* Add a hover effect for buttons */
@@ -94,7 +107,7 @@ margin-top: 45px;
   color: #FFFFFF;
   font-size: 10px;
   text-transform:lowercase;
-  font-family: Roboto;
+  font-family: Helvetica;
   float: left;
 }
 
@@ -115,7 +128,8 @@ margin-top: 45px;
 /* The "New Account" text */
 .newaccount {
   text-transform:uppercase;
-  font-family: Arial;
+  font-family: Helvetica;
+  font-weight: lighter;
   float: left;
   padding-top: 14px;
   color: #FFFFFF;
@@ -126,7 +140,8 @@ margin-top: 45px;
 /* The "Forgot password" text */
 .psw {
   text-transform:lowercase;
-  font-family: Arial;
+  font-family: Helvetica;
+  font-weight: lighter;
   float: right;
   padding-top: 14px;
   padding-left: none;
@@ -141,14 +156,15 @@ margin-top: 45px;
 }
 
 .psw a:link{
-  color: #0050B2;
+  color: #636373;
   text-decoration: none;
 }
 
 /* The "Already Registered" text */
 .message {
   text-transform:lowercase;
-  font-family: Arial;
+  font-family: Helvetica;
+  font-weight: lighter;
   float: left;
   padding-top: 14px;
   padding-left: none;
@@ -159,7 +175,7 @@ margin-top: 45px;
 }
 
 .message a:link{
-  color: #0050B2;
+  color: #636373;
   text-decoration: none;
 }
 
