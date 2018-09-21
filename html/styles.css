@@ -64,6 +64,11 @@ h2 {
   padding-bottom: 30px;
 }
 
+h2 a:link {
+  text-decoration: underline;
+  color: #636373;
+}
+
 /* Set a style for all buttons */
 .form button {
     background-color: #4CAF50;
@@ -89,6 +94,10 @@ margin-bottom: 40px;
     opacity: 0.8;
 }
 
+.Loginbtn a:link {
+  text-decoration: none;
+  color: white;
+}
 
 /* Center the avatar image inside this container */
 .form .logocontainer {

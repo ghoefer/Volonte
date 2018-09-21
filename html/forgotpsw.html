@@ -18,15 +18,21 @@
   <form class="loginform">
      <input type="text" placeholder="email"/>
 
-  <button type="button" class="Loginbtn">Send</button>
+  <button type="button" id="button" class="Loginbtn"><a href="forgotpswSent.html">Send</button>
   <p class="message"><a href="newacc.html"> Back to login</a></p>
-  <p class="psw"><a href="#">New account</a></p>
+  <p class="psw"><a href="newacc.html">New account</a></p>
 </form>
 </div>
 </div>
 
-</script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-<script src="js/script.js"></script>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src="js/script.js">
+<button onclick="window.location.href='/page2'">Continue</button>
+document.getElementByID("button").onclick = function() {
+  location.href = "forgotpswSent.html";
+};
+
+</script>
 
 
 </form>
