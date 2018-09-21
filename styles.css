@@ -112,19 +112,8 @@ margin-top: 45px;
 }
 
 
-/* The "Forgot password" text */
-p.psw {
-    text-transform:uppercase;
-    font-family: Arial;
-    float: right;
-    padding-bottom: 14px;
-    color: #FFFFFF;
-    font-size: 12px;
-    text-align: left;
-}
-
 /* The "New Account" text */
-.form .message {
+.newaccount {
   text-transform:uppercase;
   font-family: Arial;
   float: left;
@@ -134,8 +123,49 @@ p.psw {
   text-align: center;
 }
 
+/* The "Forgot password" text */
+.psw {
+  text-transform:lowercase;
+  font-family: Arial;
+  float: right;
+  padding-top: 14px;
+  padding-left: none;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: none;
+  color: white;
+}
 
-.form .message a {
+.psw a:hover {
+
+}
+
+.psw a:link{
+  color: #0050B2;
+  text-decoration: none;
+}
+
+/* The "Already Registered" text */
+.message {
+  text-transform:lowercase;
+  font-family: Arial;
+  float: left;
+  padding-top: 14px;
+  padding-left: none;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.message a:link{
+  color: #0050B2;
+  text-decoration: none;
+}
+
+
+
+/*.form .message a {
   text-transform:uppercase;
   font-family: Arial;
   float: left;
@@ -143,10 +173,10 @@ p.psw {
   color: #FFFFFF;
   font-size: 12px;
   text-align: center;
-}
+}*/
 
 .form .newacc-form {
-  display: none;
+
 }
 
 /* Change styles for span and newAccount button on extra small screens */
