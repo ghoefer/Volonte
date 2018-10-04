@@ -1,14 +1,14 @@
-var nodes = new vis.DataSet([
-  {label: "Pop"},
-  {label: "Alternative"},
-  {label: "Rock"},
-  {label: "Jazz"},
-  {label: "Hits"},
-  {label: "Dance"},
-  {label: "Metal"},
-  {label: "Experimental"},
-  {label: "Rap"},
-  {label: "Electronic"},
+var nodes = new vis.DataSet(
+  {label: "Animals"},
+  {label: "Adoption"},
+  {label: "Children"},
+  {label: "Fundraising"},
+  {label: "Women"},
+  {label: "Hospital"},
+  {label: "Elderly Care"},
+  {label: "Health"},
+  {label: "Long Term"},
+  {label: "Social"},
 ]);
 var edges = new vis.DataSet();
 
@@ -19,7 +19,13 @@ var data = {
 };
 
 var options = {
-  nodes: {borderWidth:0,shape:"circle",color:{background:'#F92C55', highlight:{background:'#F92C55', border: '#F92C55'}},font:{color:'#fff'}},
+  nodes: {
+    borderWidth:0,
+    shape:"circle",
+    color:{background:'#FFA480',
+    highlight:{background:'#fd8657',
+    border: '#fd8657'}},
+    font:{color:'#fff'}},
   physics: {
     stabilization: false,
     minVelocity:  0.01,
@@ -29,6 +35,7 @@ var options = {
     }
   }
 };
+
 var network = new vis.Network(container, data, options);
 
 

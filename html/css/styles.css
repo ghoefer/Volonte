@@ -1,10 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
-/* Bordered form */
-form {
 
+/* background color and such - edit me */
+body {
+  background: #FFE4E1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #FFE4E1, #ead9d7);
+  background: -moz-linear-gradient(right, #FFE4E1, #ead9d7);
+  background: -o-linear-gradient(right, #FFE4E1, #ead9d7);
+  background: linear-gradient(to left, #FFE4E1, #ead9d7);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 
 /*User inputs */
 .form input[type=text], input[type=password] {
@@ -120,6 +129,7 @@ margin-bottom: 40px;
   float: left;
 }
 
+/*
 .container .info span {
   color: #4d4d4d;
   font-size: 12px;
@@ -131,7 +141,7 @@ margin-bottom: 40px;
 }
 .container .info span .fa {
   color: #EF3B3A;
-}
+} */
 
 
 /* The "New Account" text */
@@ -200,9 +210,7 @@ margin-bottom: 40px;
   text-align: center;
 }*/
 
-.form .newacc-form {
 
-}
 
 /* Change styles for span and newAccount button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -214,16 +222,4 @@ margin-bottom: 40px;
         display: block;
         float: none;
     }
-}
-
-/* background color and such - edit me */
-body {
-  background: #FFE4E1; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #FFE4E1, #ead9d7);
-  background: -moz-linear-gradient(right, #FFE4E1, #ead9d7);
-  background: -o-linear-gradient(right, #FFE4E1, #ead9d7);
-  background: linear-gradient(to left, #FFE4E1, #ead9d7);
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
