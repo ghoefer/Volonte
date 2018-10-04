@@ -1,3 +1,4 @@
+alert("working");
 var nodes = new vis.DataSet(
   {label: "Animals"},
   {label: "Adoption"},
