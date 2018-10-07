@@ -1,4 +1,4 @@
-var nodes = new vis.DataSet(
+var nodes = new vis.DataSet([
   {label: "Animals"},
   {label: "Adoption"},
   {label: "Children"},
@@ -19,13 +19,10 @@ var data = {
 };
 
 var options = {
-  nodes: {
-    borderWidth:0,
-    shape:"circle",
-    color:{background:'#FFA480',
-    highlight:{background:'#fd8657',
-    border: '#fd8657'}},
-    font:{color:'#fff'}},
+  nodes: {borderWidth:0,shape:"circle",
+  color:{background:'#FFA480',
+  highlight:{background:'#fd8657', border: '#fd8657'}},
+  font:{color:'#fff'}},
   physics: {
     stabilization: false,
     minVelocity:  0.01,
@@ -35,7 +32,6 @@ var options = {
     }
   }
 };
-
 var network = new vis.Network(container, data, options);
 
 
