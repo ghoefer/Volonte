@@ -27,23 +27,28 @@ background: linear-gradient(to left, #FFE4E1, #ead9d7);
   font-size: 12px;
   text-align: right;
   text-decoration: none;
- color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .skip a:link{
   text-decoration: none;
   color: #4A4E69;
+}
 
+.skip a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 h1{
   display: inline-block;
   font-size: 2em;
   margin-top: 100px;
+  margin-left: 100px;
   padding-bottom: 0px;
   line-height: 0px;
-  margin-bottom: 0px;
-  margin-bottom: 0;
+  float: left;
+  text-align: center;
   font-weight: bold;
   font-style: bold;
   text-align: center;
