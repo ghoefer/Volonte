@@ -8,8 +8,13 @@ Tinder Template by Miami
     margin: 0 auto;
     border: 1px solid #c0c0c0;
 }
-.wrapping { padding: 10px; }
-.theader { height: 65px; border-bottom: 1px solid #c0c0c0; }
+.wrapping {
+  padding: 10px;
+}
+.theader {
+  height: 65px;
+  border-bottom: 1px solid #c0c0c0;
+}
 .theader i.fa-comments {
     color: #c0c0c0;
     font-size: 40px;
@@ -26,8 +31,14 @@ Tinder Template by Miami
     padding: 10px 20px;
     position: relative;
 }
-.tlogo { width: 100px; margin: 0 auto; padding: 10px; }
-.tlogo img { width: 100px; }
+.tlogo {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.tlogo img {
+  width: 100px;
+}
 .volphoto {
     width: 350px;
     height: 350px;
@@ -47,12 +58,25 @@ Tinder Template by Miami
 }
 .volphoto img {}
 .tname {
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 0px;
     font-size: 20px;
     font-family: 'Helvetica', sans-serif;
     float: left;
+
 }
-.tname .age { font-weight: 200; }
+
+.agency{
+  font-size: 13px;
+  font-family: 'Helvetica';
+  float: left;
+  padding-top: 3px;
+  margin-top: 0px;
+  color: grey;
+  font-weight: 100;
+
+}
 .tinfo { font-family: 'Helvetica', sans-serif; }
 .tinfo .fa-users, .tinfo .fa-book {
     color: #c0c0c0;
@@ -75,11 +99,21 @@ Tinder Template by Miami
     top: 50px;
     left: 25px;
     border: 10px solid #f0f0f0;
+
 }
+
+.noPic {
+  width: 50px;
+  padding-left: 30px;
+  padding-top: 12px;
+  padding-right: 0px;
+}
+
 .tno i {
     color: #ff695b;
     font-size: 80px;
-    padding: 17px 28px;
+    padding-bottom: 28px;
+
 }
 .ti {
     background-color: #fff;
