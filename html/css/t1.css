@@ -102,11 +102,22 @@ Tinder Template by Miami
 
 }
 
-.noPic {
+.no {
   width: 50px;
   padding-left: 30px;
   padding-top: 12px;
   padding-right: 0px;
+}
+
+.info {
+  width: 10px;
+}
+
+.Yes{
+  width: 45px;
+  padding-left: 30px;
+  padding-top: 50;
+
 }
 
 .tno i {
@@ -131,7 +142,7 @@ Tinder Template by Miami
 }
 .ti .fa-info {
     font-size: 23px;
-    padding: 15px 20px;
+    padding: 0px;
     color: #398beb;
 }
 .tyes {
@@ -151,23 +162,5 @@ Tinder Template by Miami
 .tyes i {
     color: #5de19c;
     font-size: 60px;
-    padding: 35px 30px;
-}
-.credit {
-    width: 400px;
-    height: auto;
-    position: relative;
-    top: 60px;
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 2px 0px;
-}
-.credit a {
-    font-size: 7px;
-    letter-spacing: 5px;
-    color: #c0c0c0;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Helvetica', sans-serif;
-    font-style: italic;
+    padding: 35px 0px;
 }
