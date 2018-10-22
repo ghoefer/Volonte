@@ -31,11 +31,26 @@ Tinder Template by Miami
     padding: 10px 20px;
     position: relative;
 }
-.tlogo {
-  width: 100px;
-  margin: 0 auto;
-  padding: 10px;
+h1 {
+  font-size: 200;
+  margin-top: 40;
+  padding-top: 20px;
+  line-height: 0px;
+  font-weight: bold;
+  font-style: bold;
+  text-align: center;
+  font-family: Lucida Grande;
+  font-size: 24px;
+  color: black;
+  padding-left: 0px;
 }
+
+.logo {
+  width: 20px;
+  padding-left: 80px;
+  float: left;
+}
+
 .tlogo img {
   width: 100px;
 }
@@ -104,19 +119,21 @@ Tinder Template by Miami
 
 .no {
   width: 50px;
-  padding-left: 30px;
-  padding-top: 12px;
+  padding-left: 35px;
+  padding-top: 35px;
   padding-right: 0px;
 }
 
 .info {
-  width: 10px;
+  width: 25px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 
 .Yes{
   width: 45px;
-  padding-left: 30px;
-  padding-top: 50;
+  padding-left: 38px;
+  padding-top: 37px;
 
 }
 
