@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background: #63BDF7;
+  background: grey;
   overflow: hidden;
 }
 
@@ -25,6 +25,22 @@ h1 {
   color: #D96800;
   padding-left: 0px;
   padding-right: 25px;
+}
+
+
+h2 {
+  font-size: 200;
+  padding-top: 50px;
+  line-height: 0px;
+  font-weight: 100;
+  font-style: bold;
+  text-align: center;
+  font-family: Lucida Grande;
+  font-size: 15px;
+  color: #D96800;
+  padding-left: 0px;
+  padding-right: 25px;
+
 }
 
 
@@ -111,25 +127,31 @@ h1 {
 }
 .demo__card__top {
   height: 20.5rem;
-  padding-top: 4rem;
+  padding-top: 0px;
 }
 .demo__card__top.1 {
   background: #FFFFFF;
+    padding-top: 0px;
 }
 .demo__card__top.2 {
   background: #FFFFFF;
+    padding-top: 0px;
 }
 .demo__card__top.3 {
   background: #FFFFFF;
+    padding-top: 0px;
 }
 .demo__card__top.4 {
   background: #FFFFFF;
+    padding-top: 0px;
 }
 .demo__card__top.5 {
   background: #FFFFFF;
+    padding-top: 0px;
 }
 .demo__card__top.6 {
   background: #FFFFFF;
+    padding-top: 0px;
 }
 .demo__card__img {
   overflow: hidden;
@@ -138,6 +160,7 @@ h1 {
   margin: 0px;
   padding-top: 0px;
   background-size: cover;
+  padding-bottom: 0px;
 
 }
 .demo__card__name {
@@ -157,6 +180,7 @@ h1 {
 .demo__card__btm {
   height: 9rem;
   background: #FFFFFF;
+  padding-top: 0px;
 }
 .agencyName {
   font-size: 20px;
