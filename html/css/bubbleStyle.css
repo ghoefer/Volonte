@@ -22,8 +22,8 @@ background: linear-gradient(to left, #FFE4E1, #ead9d7);
   font-family: Helvetica;
   font-weight: lighter;
   float: right;
-  padding-top: 0px;
-  padding-left: none;
+  padding-top: 30px;
+  padding-right: 30px;
   font-size: 12px;
   text-align: right;
   text-decoration: none;
@@ -36,6 +36,29 @@ background: linear-gradient(to left, #FFE4E1, #ead9d7);
 }
 
 .skip a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.back {
+  text-transform:lowercase;
+  font-family: Helvetica;
+  font-weight: lighter;
+  float: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.back a:link{
+  text-decoration: none;
+  color: #4A4E69;
+}
+
+.back a:hover {
   text-decoration: none;
   color: #FFFFFF;
 }

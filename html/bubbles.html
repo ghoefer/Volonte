@@ -14,13 +14,27 @@
 
  <body>
    <div class=skip>
-   <p class="skip"><a href="landing.html">Skip</a></p></div>
+   <p id="message"><a href="www.google.com">Skip</a></p>
+ </div>
 
+   <div class=back>
+   <p id="back"><a href="www.google.com">back</a></p>
+  </div>
+
+
+<script src="js/script.js"></script>
 
    <h1>Select your preference:</h1>
 
 
    <div id="bubbles"></div>
+   <script>
+   document.getElementById("message").onclick = function() {myFunction()};
+
+   function myFunction() {
+       document.getElementById("message").innerHTML = "YOU CLICKED ME!";
+   }
+   </script>
 
    <script src="js/bub.three.min.js"></script>
 
