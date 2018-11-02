@@ -13,6 +13,32 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  font-size: 200;
+  padding-top: 30px;
+  line-height: 0px;
+  font-weight: bold;
+  font-style: bold;
+  text-align: center;
+  font-family: Lucida Grande;
+  font-size: 24px;
+  color: #D96800;
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
+
+
+.logo {
+  width: 20px;
+  padding-left: 100px;
+  float: left;
+}
+
+.tlogo img {
+  width: 100px;
+}
+
 .demo {
   position: absolute;
   left: 50%;
@@ -27,6 +53,7 @@ body {
 .demo__header {
   height: 6rem;
   background: #002942;
+
 }
 .demo__content {
   overflow: hidden;
