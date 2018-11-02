@@ -208,9 +208,10 @@ body {
     padding: 12px;
 }
 .tcontrols {
-  padding-top: 410px;
+  padding-top: 420px;
   position: absolute;
-  padding-left: 110px;
+  padding-left: 130px;
+  padding-right: 0px;
 }
 .tno {
     background-color: #fff;
@@ -229,22 +230,22 @@ body {
 }
 
 .no {
-  width: 75px;
-  padding-left: 35px;
-  padding-top: 35px;
+  width: 70px;
+  padding-left: 10px;
+  padding-top: 12px;
   padding-right: 0px;
 }
 
 .info {
   width: 25px;
-  padding-left: 12px;
-  padding-top: 12px;
+  padding-left: 6px;
+  padding-top: 6px;
 }
 
 .Yes{
-  width: 75px;
-  padding-left: 38px;
-  padding-top: 37px;
+  width: 50px;
+  padding-left: 4px;
+  padding-bottom: 3px;
 
 }
 
@@ -285,6 +286,7 @@ body {
     display: inline-block;
     top: 48px;
     left: 0px;
+    right: 0px;
     border: 10px solid #f0f0f0;
 }
 .tyes i {
