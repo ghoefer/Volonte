@@ -1,4 +1,7 @@
 
+
+
+
 var nodes = new vis.DataSet([
   {label: "Animals"},
   {label: "Adoption"},
@@ -44,3 +47,7 @@ network.on("click", function(e) {
     nodes.update(node);
   }
 });
+
+$('back').click(function(){
+    location.href='landing.html'
+})
