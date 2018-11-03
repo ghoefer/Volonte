@@ -9,6 +9,18 @@
 
 }
 
+/*.overall {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 26rem;
+  height: 54rem;
+  margin-left: -15.3rem;
+  margin-top: -27rem;
+  background: #F6F6F5;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}*/
+
 body{
 background: #FFE4E1; /* fallback for old browsers */
 background: -webkit-linear-gradient(right, #FFE4E1, #ead9d7);
