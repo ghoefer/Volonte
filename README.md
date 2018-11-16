@@ -21,6 +21,9 @@ With Volonte, non-profit organizations can form a community of volunteers across
 
 * [Atom](http://www.atom.io)
 * [Microsoft Azure](https://azure.microsoft.com/en-us/free/search/?v=18.45)
+* [XAMPP](https://sourceforge.net/projects/xampp/)
+* [Netbeans](https://netbeans.org)
+* [Adobe XD](https://adobe.com)
 
 ## Authors
 
