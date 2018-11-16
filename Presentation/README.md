@@ -4,6 +4,6 @@ Volonte was presented at the ACM Mid-Southeast Conference in November 2018. Crea
 
 ## Instructions
 
-These instructions will get you a copy of the project up and running on your local machine. Go to the Volonte/Presentation folder and select "index.html" file. 
+These instructions will get you a copy of the project up and running on your local machine. Go to the Volonte/Presentation folder and download or clone it. You can easily run the index.html file on your local hard drive. 
 
 
