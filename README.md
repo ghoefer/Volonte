@@ -25,7 +25,7 @@ With Volonte, non-profit organizations can form a community of volunteers across
 ## Authors
 
 * **Gabby Hoefer** - *Initial work* - [ghoefer](https://github.com/ghoefer)
-* **Anisha Nizar Ali** - *Initial work* - [anizar](https://github.com/anizar)
+* **Anisha Nizar Ali** - *Initial work* - [anishanizarali](https://github.com/anishanizarali)
 
 See also the list of [contributors](https://github.com/volonte/contributors) who participated in this project
 
