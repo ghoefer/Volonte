@@ -1,5 +1,5 @@
 # Volonte
-
+Volonte is a volunteer application that matches non-profit organizations with potential student volunteers. Volonte targets college students ages 18-22 in particular, as this age group volunteers statistically less than any other group of adults. This project began at Crimson Hackathon and was presented at the ACM 60th Annual Mid-Southeast Conference in November 2018.  
 
 ## Crimson Hackathon 2018
 
